@@ -1,0 +1,118 @@
+body{
+	font-family: Arial, Helvetica, sans serif;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+
+/*Global*/
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+/*Header*/
+header{
+	color: #ffffff;
+	background: #35424a;
+	border-bottom: #3175FF 3px solid;
+	padding-top: 30px;
+	min-height: 70px;
+}
+
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding{
+	float:left;
+}
+
+header #branding h1{
+	margin: 0;
+}
+
+header nav{
+	float: right;
+	margin-top: 15px;
+}
+
+header .highlight, header .current a{
+	color: #3175FF;
+	font-weight: bold;
+
+}
+
+header a:hover{
+	color:white;
+	font-weight: bold;
+}
+
+/* Showcase*/
+
+#showcase{
+	min-height: 400px;
+	background:url("van.jpg") no-repeat -60px -400px;
+	text-align: center;
+	color: white;
+}
+
+#showcase h1{
+	font-family: Ariel;
+	margin-top: 100px;
+	font-size: 55px;
+	margin-bottom: 10px
+}
+
+#showcase p{
+	font-size: 20px;
+}
+
+/* author */
+#author{
+	color:#ffffff;
+	background: #35424a;
+	border-top: #3175FF 3px solid;
+	font-family: Ariel;
+	
+	padding: 15px;
+}
+#author h1{
+	float:left;
+
+}
+
+/*boxes */
+#boxes img{
+ height: 300px;
+ margin-top: 20px;
+}
+
+footer{
+	padding: 20px;
+	margin-top: 20px;
+	color: #ffffff;
+	background-color: #3175FF;
+	text-align: center;
+}
+#boxes a{
+	color: black;
+
+}
